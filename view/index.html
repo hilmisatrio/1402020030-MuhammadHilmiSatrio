@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--style css external-->
+    <link rel="stylesheet" href="../css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Tokopedia</title>
+    <!--fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="up-header">
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="../image/icon-phone.png" alt="" class="icon-phone">
+                    <a href="https://www.tokopedia.com/mobile-apps/" class="link-direct-app-tokped"
+                        target="_blank">Download
+                        Tokopedia App</a>
+                </div>
+                <!-- <div class="col-md-1"></div> -->
+                <div class="col-md-9" style="justify-content: flex-end;display: flex;">
+                    <a href="" class="tentang-tokped">Tentang Tokopedia</a>
+                    <a href="" class="mitra-tokped">Mitra Tokopedia</a>
+                    <a href="" class="mulai-jual">Mulai Berjualan</a>
+                    <a href="" class="promo">Promo</a>
+                    <a href="" class="tokped-care">Tokopedia Care</a>
+                </div>
+            </div>
+        </div>
+        <div class="up-header2">
+            <div class="row">
+                <div class="col-md-2">
+                    <img src="../icon/logo-tokped.svg" alt="">
+                </div>
+                <div class="col-md-7">
+                    <div class="search-menu">
+                        <a href="" class="kategori" style="text-align: center;margin: auto 20px;">kategori</a>
+                        <input type="text" placeholder="Cari nike.." name="search" class="search">
+                        <button type="submit" class="button-search" style="color: grey;display: flex;
+                    align-items: center;
+                    justify-content: center;"> <img src="../icon/search.svg" alt=""
+                                style="margin: auto;height: 20px;width: 20px;"></button>
+                    </div>
+                </div>
+                <div class="col-md-1" style="justify-content: center;display: flex;">
+                    <img src="../image/cart.png" alt="" style="height: 20px;width: 20px;margin: auto;">
+                </div>
+                <div class="col-md-2" style="justify-content: flex-end;display: flex;">
+                    <div class="line-vertikal"></div>
+                    <button class="masuk" id="masuk">Masuk</button>
+                    <button class="daftar" id="daftar">Daftar</button>
+                </div>
+            </div>
+        </div>
+        <div class="up-header3">
+            <div class="row">
+                <div class="col-md-7" style="justify-content: flex-end;display: flex;">
+                    <a href="https://www.tokopedia.com/find/meja-lipat" class="nav1">Meja Lipat</a>
+                    <a href="https://www.tokopedia.com/find/kandang-kucing" class="nav2">Kandang Kucing</a>
+                    <a href="" class="nav3">Kompor Tanam</a>
+                    <a href="" class="nav4">Lampu Tidur</a>
+                    <a href="" class="nav5">Meja Tv</a>
+                    <a href="" class="nav6">Iphone Xr</a>
+                </div>
+                <!--tag alamat -->
+                <div class="col-md-5" style="text-align: right;">
+                    <a href="" style="text-decoration: none;">
+                        <span><img src="../image/pointmap.png" class="image-point-map"></span>
+                        <span class="kirim">Dikirim ke</span>
+                        <span class="alamat">Kemayoran Jakarta Pusat</span>
+                        <span><img src="../image/collapse.png" alt="" class="image-collapse"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="page-utama">
+            <!--carausel-->
+            <div class="carousel">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="../image/image-carousel1.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../image/image-carousel2.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <!-- kategori pilihan -->
+            <div class="menu-kategori">
+                <div class="row">
+                    <div class="col-sm-6" style="padding: 10px 5px;margin:0px -0.4rem">
+                        <p class="kategori-title" style="padding-bottom: 15px;">Kategori Pilihan</p>
+                        <div class="row">
+                            <div class="col-md-3 produk" style="margin-right: -10px;">
+                                <img src="../image/sepatu.jpg" alt="" style="width: 100%;">
+                            </div>
+                            <div class="col-md-3 produk" style="margin-right: -10px;">
+                                <img src="../image/toples.jpg" alt="" style="width: 100%;">
+                            </div>
+                            <div class="col-md-3 produk" style="margin-right: -10px;">
+                                <img src="../image/hardisk.jpg" alt="" style="width: 100%;">
+                            </div>
+                            <div class="col-md-3 produk">
+                                <img src="../image/makanan.jpg" alt="" style="width: 100%;">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6" style="margin: 5px;">
+                        <h3 style="padding-bottom: 1.6rem;" class="kategori-title">Top Up dan Tagihan</h3>
+                        <!-- <div class="row" style="box-shadow: 0 4px 6px -1px rgb(0 0 0 / 7%);padding: 5px;"> -->
+                        <div class="row" style="border:solid 1px #e5e7e9;border-radius: 10px; padding: 0px 5px;">
+                            <div class="row" style="text-align: center; padding: 3px 7px;">
+                                <div class="col-sm-3 content-nav" id="menu-pulsa"
+                                    style="border-bottom: solid 2px #03ac0e;">
+                                    Pulsa
+                                </div>
+                                <div class="col-sm-3 content-nav" id="menu-paket"
+                                    style="border-bottom: solid 2px #e5e7e9;color: #31353B70;">
+                                    Paket Data
+                                </div>
+                                <div class="col-sm-3 content-nav" id="menu-listrik"
+                                    style="border-bottom: solid 2px #e5e7e9; color: #31353B70;">
+                                    Listrik
+                                </div>
+                                <div class="col-sm-3 content-nav" id="menu-PLN"
+                                    style="color: #30363e70;border-bottom: solid 2px #e5e7e9;">
+                                    PLN
+                                </div>
+                            </div>
+                            <div class="row" style="flex: 1 1 auto; padding: 0.7rem 6px;">
+                                <div class="col-sm-5">
+                                    <label for="no-hp"
+                                        style="font-size: 12px;color: rgba(49, 53, 59, 0.68);margin-bottom: 4px;">
+                                        Nomor Telpon
+                                    </label>
+                                    <input type="text" id="no-hp" class="no-hp" placeholder="0812345678">
+                                </div>
+                                <div class="col-sm-5">
+                                    <!-- for nominal pulsa -->
+                                    <label for="nominal"
+                                        style="font-size: 12px;color: rgba(49, 53, 59, 0.68);margin-bottom: 4px;">
+                                        Nominal
+                                    </label>
+                                    <select name="" class="pulsa" id="nominal" disabled>
+                                        <option value="pilih">pilih</option>
+                                        <option value="1.000-Rp3.000">1.000-Rp3.000</option>
+                                        <option value="1.000-Rp3.000">1.000-Rp3.000</option>
+                                        <option value="3.000-Rp6.000">3.000-Rp6.000</option>
+                                        <option value="5.000-Rp8.000">5.000-Rp8.000</option>
+                                        <option value="10.000-Rp12.000">10.000-Rp12.000</option>
+                                        <option value="20.000-Rp22.000">20.000-Rp22.000</option>
+                                        <option value="25.000-Rp27.000">25.000-Rp27.000</option>
+                                        <option value="50.000-Rp52.00">50.000-Rp52.000</option>
+                                        <option value="100.000-Rp102.000">100.000-Rp102.000</option>
+                                    </select>
+                                    <!-- for nominal paket data -->
+                                    <select name="" class="paket-data" id="nominal-paket-data" disabled hidden>
+                                        <option value="pilih">pilih</option>
+                                        <option value="Internet 10 GB-Rp30.500">Internet 10 GB-Rp30.500</option>
+                                        <option value="Internet 15 GB-Rp43.000">Internet 15 GB-Rp43.000</option>
+                                        <option value="Internet Combo Unlimited (Kuota Malam)-Rp20.000">Internet Combo
+                                            Unlimited (Kuota Malam)-Rp20.000</option>
+                                        <option value="Internet Combo Unlimited-Rp70.000">Internet Combo
+                                            Unlimited-Rp70.000</option>
+                                    </select>
+                                </div>
+                                <div class="col-sm-2"
+                                    style=" margin: auto;align-items: center;padding-right: 2rem;margin-top: 1.5em;">
+                                    <span></span>
+                                    <button class="medium-header-fill-grey" id="button-beli-pulsa" disabled>Beli</button>
+                                    <button class="medium-header-fill-grey" id="button-beli-paket" hidden disabled>Beli</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- list kategori -->
+                <div class="row" style="margin: 15px 5px;">
+                    <div class="col-md-12 category" style="display: inline;">
+                        <a href="">
+                            <img src="../image/kategori.png" alt="">
+                            <span>Kategori</span>
+                        </a>
+                        <a href="">
+                            <img src="../image/handphone.png" alt="">
+                            <span>Handphone & Tablet</span>
+                        </a>
+                        <a href="">
+                            <img src="../image/topup.png" alt="">
+                            <span>Top-Up & Tagihan</span>
+                        </a>
+                        <a href="">
+                            <img src="../image/tiket.png" alt="">
+                            <span>Travel & Entertainment</span>
+                        </a>
+                        <a href="">
+                            <img src="../image/carepat.png" alt="">
+                            <span>Perawatan Hewan</span>
+                        </a>
+                        <a href="">
+                            <img src="../image/keuangan.png" alt="">
+                            <span>Keuangan</span>
+                        </a>
+                        <a href="">
+                            <img src="../image/komputer.png" alt="">
+                            <span>Komputer & Laptop</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- link external js -->
+    <script src="../js/kode-script.js"></script>
+</body>
+</html>
