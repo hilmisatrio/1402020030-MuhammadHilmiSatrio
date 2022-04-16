@@ -9,24 +9,20 @@ $(document).ready(function () {
             $("#nominal-paket-data").prop("disabled", true);
             $("#button-beli-paket").prop("disabled", true);
             $("#button-beli-pulsa").prop("disabled", true);
-            document.getElementById("button-beli-pulsa").style.backgroundColor = "#6C727C";
-            document.getElementById("button-beli-paket").style.backgroundColor = "#6C727C";
-            document.getElementById("nominal").value = "pilih";
-            document.getElementById("nominal-paket-data").value = "pilih";
+            $("#button-beli-pulsa").css({'backgroundColor':'#6C727C'});
+            $("#button-beli-paket").css({'backgroundColor':'#6C727C'});
+            $("#nominal").val("pilih");
+            $("#nominal-paket-data").val("pilih");
         }
     });
     // untuk pulsa
     $("#nominal").change(function () {
-        // dom js
-        document.getElementById("button-beli-pulsa").style.backgroundColor = "#fa591d";
-        document.getElementById("button-beli-pulsa").style.border = "#fa591d";
+        $("#button-beli-pulsa").css({'backgroundColor':'#fa591d','border':'#fa591d'});
         $("#button-beli-pulsa").prop("disabled", false);
     });
     // untuk paket
     $("#nominal-paket-data").change(function () {
-        // dom js
-        document.getElementById("button-beli-paket").style.backgroundColor = "#fa591d";
-        document.getElementById("button-beli-paket").style.border = "#fa591d";
+        $("#button-beli-paket").css({'backgroundColor':'#fa591d','border':'#fa591d'});
         $("#button-beli-paket").prop("disabled", false);
     });
     // action tombol beli pulsa
